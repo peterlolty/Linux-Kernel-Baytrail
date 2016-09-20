@@ -1,7 +1,10 @@
 # Linux-Kernel-Baytrail
 <br>
 <br>
-        Linux kernel release 4.x <http://kernel.org/>
+Linux 4.8rc7 with rtl8723bs patches for Baytrail devices
+<br>
+<br>
+#        Linux kernel release 4.x <http://kernel.org/>
 
 These are the release notes for Linux version 4.  Read them carefully,
 as they tell you what this is all about, explain how to install the
