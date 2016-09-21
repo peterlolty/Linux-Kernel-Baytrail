@@ -4,6 +4,20 @@
 Linux 4.8rc7 with rtl8723bs patches for Baytrail devices
 <br>
 <br>
+#Building the kernel
+<br>
+<br>
+1:clone the repository
+<br>
+2:$cd Linux-Kernel-Baytrail
+<br>
+3:$cp v4.8.conf .config
+<br>
+4:$make INSTALL_MOD_STRIP=1 -j4 deb-pkg
+<br>
+5:$dpkg -i ../*.deb
+<br>
+<br>
 #        Linux kernel release 4.x <http://kernel.org/>
 
 These are the release notes for Linux version 4.  Read them carefully,
